@@ -1,6 +1,0 @@
-@AgeOfAnarchy_Server_HostAddress = http://localhost:5176
-
-GET {{AgeOfAnarchy_Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
