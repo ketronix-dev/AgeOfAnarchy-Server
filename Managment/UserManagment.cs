@@ -26,6 +26,12 @@ namespace UserManagment
             return null;
         }
 
+        public static async Task<User?> GetUser(string token)
+        {
+            return await DatabaseUtils.GetUserByToken(token);
+        }
+
+
         public static string GenerateAccessToken(int length = 100)
         {
             if (length <= 0)
